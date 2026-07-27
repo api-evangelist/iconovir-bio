@@ -1,8 +1,25 @@
 aid: iconovir-bio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iconovir-bio.png
 name: IconOVir Bio
-description: 'IconOVir Bio is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'IconOVir Bio is a New York City-based, clinical-stage life sciences company whose stated
+  mission is to cure cancer and restore life to patients. Backed by GV (Google Ventures) as a portfolio
+  company, IconOVir Bio operates in the oncology and cancer immunotherapy space, developing therapeutics
+  aimed at treating patients across a range of cancers. The company maintains a corporate presence at 689
+  Fifth Avenue in Manhattan and presents a single-page corporate website with no public developer program,
+  API, SDKs, or technical documentation. This profile was added to the API Evangelist network as a
+  life-sciences portfolio lead; the enrichment pass confirmed there is no public API or developer surface
+  to catalog beyond basic web-domain security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/iconovir-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Oncology
+- Cancer
+- Immunotherapy
+- Therapeutics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/iconovir-bio-domain-security.yml
 - type: Website
-  url: http://iconovir.com
+  url: https://iconovir.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
