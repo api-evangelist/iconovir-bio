@@ -32,6 +32,9 @@ description: 'IconOVir Bio is a New York City-based, clinical-stage life science
   life-sciences portfolio lead; the enrichment pass confirmed there is no public API or developer surface
   to catalog beyond basic web-domain security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/iconovir-bio/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This profile was added to the API Evangelist network as a life-sciences portfolio lead; the enrichment pass confirmed there is no public API or developer surface to catalog beyond basic web-domain sec"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
